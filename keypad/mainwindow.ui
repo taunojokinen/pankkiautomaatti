@@ -14,17 +14,486 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="nr1Button">
     <property name="geometry">
      <rect>
       <x>90</x>
       <y>170</y>
-      <width>80</width>
-      <height>24</height>
+      <width>50</width>
+      <height>50</height>
      </rect>
     </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
     <property name="text">
-     <string>numebr1Key</string>
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr2Button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>170</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr3Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>170</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr4Button">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr5Button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr6Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>230</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr7Button">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr8Button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>290</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr9Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>290</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leftEmptyButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nr0Button">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rightEmptyButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>170</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#stopButton
+
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+  font: 20pt &quot;Segoe UI&quot;;
+  color:red;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>STOP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upperEmptyButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lowerEmptyButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>290</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+	font: 20pt &quot;Segoe UI&quot;;
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="okButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>350</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#okButton
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 8px;
+  background: rgb(211,211,211);
+  font: 20pt &quot;Segoe UI&quot;;
+  color:green;
+}</string>
+    </property>
+    <property name="text">
+     <string>OK</string>
     </property>
    </widget>
   </widget>

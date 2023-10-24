@@ -6,6 +6,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+  //  ui->pushButton->setStyleSheet("QPushButton{background-color :rgb(211,211,111); }");
+ //   ui->pushButton->setStyleSheet("QPushButton{border-radius: 5px;}");
+
+
 }
 
 MainWindow::~MainWindow()
